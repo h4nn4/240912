@@ -32,7 +32,6 @@ public class CountThread123 extends Thread {
                 if ((x % 5 == 0) && (x < 10)) {
                     for (int y = 1; y <= 10; y++) {
                         System.out.print("A");
-                        System.out.print(" ");
                     }
                 }
             }
